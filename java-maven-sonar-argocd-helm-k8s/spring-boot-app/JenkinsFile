@@ -1,7 +1,7 @@
 pipeline {
-  agent {
-    label 'docker'
-  }
+  // agent {
+  //   label 'docker'
+  // }
   agent {
     docker {
       image 'abhishekf5/maven-abhishek-docker-agent:v1'
